@@ -1,5 +1,6 @@
+'''This function checks the final result of the game'''
 def isWinner(board,le):
-    #Checking the Win Lose Condition
+    # Checking the Win Lose Condition (https://techwithtim.net/tutorials/python-programming/tic-tac-toe-tutorial/)
     return ((board[1] == le and board[2] == le and board[3] == le) or
         (board[1] == le and board[5] == le and board[9] == le) or
         (board[1] == le and board[4] == le and board[7] == le) or

@@ -1,5 +1,5 @@
+'''This function checks if user input is a number between 1 to 9 (the position on the board)'''
 def checking_player_input(player_input):
-    #Check if user input is a number between 1 to 9
     try:
         player_input = int(player_input)
     except ValueError:
